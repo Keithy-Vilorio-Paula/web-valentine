@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Feliz San Valentín</title>
+</head>
+
+<body>
+    <div class="valentines-day">
+        <div class="envelope"></div>
+        <div class="heart"></div>
+        <div class="text">¡FELIZ DÍA DE<br>SAN VALENTÍN! <br>CUCHICUCHI</div>
+        <div class="front"></div>
+    </div>
+
+    <div id="card">
+        <div class="side one">
+            <div class="cuerpo_contenedor" id="img">
+
+                
+             </div>
+             <div style="display: flex; padding-top: 20em;" class="button-container">
+                <button style="color: blue; font-size: 10px; display: none;" id="next" onclick="NextAudio()">Next</button>
+            </div>
+        </div>
+        
+        <div class="side two">
+            <h2>🌷🌷🌷</h2>
+            <p>Querido Edgar,</p>
+            <p>
+                En este San Valentín, quiero recordarte lo especial que eres. Cada sonrisa compartida, cada momento
+                juntos es un tesoro. Eres una persona maravillosa, tanto por dentro como por fuera. Valoro cada instante
+                compartido. Gracias por ser quien eres.
+                Gracias por estar siempre conmigo y nunca dejarme sola.
+            </p>
+            <p style="color: red; font-weight: bold;">
+                ¡Feliz San Valentín!
+                <img src="assets/img/nosotros.jpg" alt="">
+            </p>
+            <p>
+                Con cariño y muchisimo amor,<br>
+             <strong>TU MUJER</strong>
+    
+            </p>
+            <div class="cuerpo_contenedor_imagen">
+                 
+                <img id="tocadisco" class="cuerpo_imagen" src="assets/img/tocadisco.png" onclick="PlayAudio()"  onclick="document.getElementById('next').style= 'flex'" > </img>
+                <button  style="color: blue; font-size: 10px ; " id="next" onclick="NextAudio()">Next</button>
+
+            </div>
+           
+            <div class="cuerpo_dedicatoria" id="titulo">
+                                    
+                Toca el Disco ❤
+               
+               
+            </div>
+
+         </div>
+        
+    
+        </div>
+    </div>
+    <audio id="click">
+						
+        <source src="assets/img/amor.mp3" type="audio/mpeg">
+
+</audio>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
